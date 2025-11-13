@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch-a-Ride - Transforming Mobility in Lesotho</title>
+
+    <!-- Embedded CSS -->
+    <style>
+        /* Reset defaults */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: #1e90ff;
+            color: white;
+            padding: 1rem 2rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        #hero {
+            background: linear-gradient(135deg, #1e90ff, #00bfff);
+            color: white;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+
+        #hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        #hero p {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-button {
+            background: #ff6347;
+            color: white;
+            border: none;
+            padding: 0.8rem 2rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .cta-button:hover {
+            background: #ff4500;
+        }
+
+        /* Sections */
+        section {
+            padding: 3rem 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        h3 {
+            color: #1e90ff;
+            margin-bottom: 1rem;
+        }
+
+        /* How It Works */
+        .how-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .how-group {
+            flex: 1;
+            min-width: 280px;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .step {
+            margin-bottom: 1rem;
+        }
+
+        /* Driver Benefits */
+        .driver-benefits {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .benefit {
+            flex: 1;
+            min-width: 250px;
+            background: #e6f7ff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+        }
+
+        /* Contact Form */
+        .contact-form input, 
+        .contact-form textarea {
+            width: 100%;
+            padding: 0.8rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        /* Footer */
+        footer {
+            background: #1e90ff;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        footer ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .how-container, .driver-benefits {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Catch-a-Ride</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#how-it-works">How it Works</a></li>
+                <li><a href="#drivers">For Drivers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Transforming Mobility in Lesotho</h2>
+            <p>Safe, affordable, and eco-friendly rides at your fingertips</p>
+            <button class="cta-button">Download the App</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h3>About Us</h3>
+        <p>
+            Access to safe, reliable, and affordable transportation remains a persistent challenge in Lesotho,
+            especially in urban centers like Maseru and remote rural areas. Public transport options are often
+            inconsistent, informal, and lack digital integration.
+        </p>
+        <p>
+            Catch-a-Ride offers a dependable, transparent, and user-friendly ride-hailing service that addresses
+            transportation inefficiencies and creates new economic opportunities for drivers.
+        </p>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works">
+        <h3>How It Works</h3>
+        <div class="how-container">
+            <div class="how-group">
+                <h4>For Riders</h4>
+                <div class="step">
+                    <h5>1. Request a Ride</h5>
+                    <p>Download the app or use SMS service. Enter your destination and request a ride or delivery instantly.</p>
+                </div>
+                <div class="step">
+                    <h5>2. Track & Travel</h5>
+                    <p>Track your driver’s arrival in real-time and enjoy a safe, efficient journey.</p>
+                </div>
+                <div class="step">
+                    <h5>3. Pay & Rate</h5>
+                    <p>Pay securely and provide feedback after your trip to maintain high service quality.</p>
+                </div>
+            </div>
+
+            <div class="how-group">
+                <h4>For Drivers</h4>
+                <div class="step">
+                    <h5>1. Sign Up & Go Online</h5>
+                    <p>Register as a driver and start receiving ride or delivery requests.</p>
+                </div>
+                <div class="step">
+                    <h5>2. Accept & Navigate</h5>
+                    <p>Accept nearby requests. Smart routing guides you efficiently.</p>
+                </div>
+                <div class="step">
+                    <h5>3. Earn & Grow</h5>
+                    <p>Complete trips and deliveries, earning income and growing your business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- For Drivers Section -->
+    <section id="drivers">
+        <h3>Drive with Catch-a-Ride</h3>
+        <p>Empowering drivers to earn a stable income while contributing to a safer Lesotho.</p>
+        <div class="driver-benefits">
+            <div class="benefit">
+                <h4>Flexible Earning</h4>
+                <p>Choose when and where you drive, balancing work and family responsibilities.</p>
+            </div>
+            <div class="benefit">
+                <h4>Reliable Income</h4>
+                <p>Consistent ride and delivery requests ensure a dependable income.</p>
+            </div>
+            <div class="benefit">
+                <h4>Support for Drivers</h4>
+                <p>Training, safety resources, and digital tools to improve service quality.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h3>Contact Us</h3>
+        <p>We’d love to hear from you! Reach out to us for any questions or partnership opportunities.</p>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Catch-a-Ride. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </footer>
+
+    <!-- Embedded JS -->
+    <script>
+        const ctaButtons = document.querySelectorAll('.cta-button');
+        ctaButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                alert('This feature is coming soon!');
+            });
+        });
+    </script>
+</body>
+</html>
